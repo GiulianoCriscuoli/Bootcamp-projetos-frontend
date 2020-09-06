@@ -47,7 +47,7 @@ a {
 
 .insta-phone img {
 
-    height: 50rem;
+    height: 48rem;
 }
 
 /* coluna direita */
@@ -75,6 +75,7 @@ a {
     background-color: #FFFFFF;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
+    margin: 0.5rem;
 
 }
 
@@ -175,7 +176,42 @@ margin-top: 1rem;
 .app-download:nth-child(2) {
     
     background-image: url("./img/google.png");
+    
 }
 
 /* responsivo */
 
+@media (max-width: 1024px) {
+
+    .insta-wrapper {
+
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+
+        background-color: #FFF;
+    
+    }
+    .insta-wrapper {
+
+        width: 90%;
+    }
+
+    .insta-phone {
+
+        display: none;
+    }
+
+    .insta-continue {
+
+        width: 100%;
+    }
+
+    .group {
+
+        border: none;
+    }
+}
