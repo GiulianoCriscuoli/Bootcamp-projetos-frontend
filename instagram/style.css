@@ -18,6 +18,13 @@ body {
     justify-content: center;
 }
 
+a {
+
+    text-decoration: none;
+}
+
+/* container */
+
 .insta-wrapper {
 
     display: flex;
@@ -27,6 +34,8 @@ body {
     height: 100vh;
   
 }
+
+/* coluna esquerda */
 
 .insta-phone {
 
@@ -41,6 +50,8 @@ body {
     height: 50rem;
 }
 
+/* coluna direita */
+
 .insta-continue {
 
     display:flex;
@@ -52,6 +63,8 @@ body {
     width: 50%;
 }
 
+/* grupos de componentes */
+
 .group {
 
     display:flex;
@@ -62,16 +75,20 @@ body {
     background-color: #FFFFFF;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
+
 }
 
 .group:nth-child(1) {
     min-height: 19rem;
 }
 
+/* logo */
+
 .logo {
     height: 3rem;
 
 }
+/* perfil */
 
 .profile {
     display: flex;
@@ -81,3 +98,84 @@ body {
     background-color: rgba(255, 160, 122, 0.246);
     overflow: hidden;
 }
+
+.profile img {
+
+    height: 6rem;
+
+}
+
+/* registro */
+
+.login {
+
+    background-color: #0095F0;
+    color:#FFF;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.logout {
+
+color: #0095F0;
+margin-top: 1rem;
+
+}
+
+.not-account {
+
+    color: rgb(168, 168, 168);
+
+}
+
+.link-blue {
+
+    color: #0095F0;
+}
+
+/* apps store */
+
+.get-the--app {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.get-app {
+
+    color: rgb(100, 100, 100);
+    font-size: 1.1rem;
+}
+
+.download {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+
+    background-image: url("./img/pngwave.png");
+}
+
+.app-download:nth-child(2) {
+    
+    background-image: url("./img/google.png");
+}
+
+/* responsivo */
+
