@@ -57,10 +57,55 @@ header nav a:hover {
     align-items: flex-start;
 }
 
-.main-movie .description {
-    margin-bottom: 40px;
+ .container {
+    margin-left: 20px;
 }
 
-.title {
+.main-movie .container {
+    width: 60%;
+
+}
+
+.main-movie .description {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.main-movie .title {
+    margin-top: 10%;
     font-size: 40px;
+    font-family: 'Trebuchet MS',  Arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    outline: none;
+    margin-right: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.button:hover {
+    background-color: white;
+    color:#000;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+.carousel-movies {
+
+    margin-top: 10px;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display:block;
 }
