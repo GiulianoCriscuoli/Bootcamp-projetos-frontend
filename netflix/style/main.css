@@ -12,7 +12,7 @@
 
 body {
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', serif;
     color: #FFF;
 
 }
@@ -44,6 +44,11 @@ header nav a {
 
 header nav a:hover {
     color: #FFF;
+}
+
+.mobile{
+    display: none;
+    
 }
 
 .main-movie {
@@ -101,11 +106,24 @@ header nav a:hover {
 
 .carousel-movies {
 
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .box-movie {
     height: 100%;
     width: 100%;
     display:block;
+}
+
+.item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.item img:hover {
+
+    transform: translateY(-2px);
+    transition: .2s;
 }
